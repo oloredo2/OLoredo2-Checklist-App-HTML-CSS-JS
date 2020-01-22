@@ -13,26 +13,23 @@
         <div class="header">
             <h1 class="title">My Checklist Application</h1>
             <div class="form">
-                <input type="text" placeholder="New Item" />
-                <button>Add to Checklist</button>
+                <input id="newText" type="text" placeholder="New Item" />
+                <button id="newBtn">Add to Checklist</button>
             </div>           
         </div>
         <div class="todos">
             <div class="pending">
                 <h3>Pending to do:</h3>
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
+                <ul id="pendingList">
                 </ul>
             </div>
             <div class="completed">
                 <h3>Tasks I Completed:</h3>
-                <ul>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                <ul id="completedList">
                 </ul>
             </div>           
         </div>      
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
